@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import WhyUs from './components/WhyUs';
-import ProgramsSection from './components/ProgramsSection';
-import ScheduleSection from './components/ScheduleSection';
-import GallerySection from './components/GallerySection';
-import SafetySection from './components/SafetySection';
-import TestimonialsSection from './components/TestimonialsSection';
-import FaqSection from './components/FaqSection';
-import ContactFooter from './components/ContactFooter';
-import TrialModal from './components/TrialModal';
-import FloatingWhatsApp from './components/FloatingWhatsApp';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import WhyUs from './WhyUs';
+import ProgramsSection from './ProgramsSection';
+import ScheduleSection from './ScheduleSection';
+import GallerySection from './GallerySection';
+import SafetySection from './SafetySection';
+import TestimonialsSection from './TestimonialsSection';
+import FaqSection from './FaqSection';
+import ContactFooter from './ContactFooter';
+import TrialModal from './TrialModal';
+import FloatingWhatsApp from './FloatingWhatsApp';
 
 export default function App() {
   const [isTrialModalOpen, setIsTrialModalOpen] = useState(false);
